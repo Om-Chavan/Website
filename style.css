@@ -1,0 +1,72 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  /* Styling the container */
+  .container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  .container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .container label,
+  .container input,
+  .container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .container input[type="text"],
+  .container input[type="email"],
+  .container textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #45a049;
+  }
+  

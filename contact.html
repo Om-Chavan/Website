@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages </title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+
+    <style>
+      h1 { display: block; font-size: 2em; 
+    border: solid black 10px; 
+    padding:10px;
+    background-color: rgb(82, 212, 160);
+    }
+
+
+    img{
+      margin: 50px;
+      border: solid black 8px;
+      /* width:80%; */
+      height: 400px;
+    
+    }
+    </style>
+</head>
+
+<body>  
+  <center>
+
+    <h1>Door Step Maintenance Service</h1>
+</center>
+
+  <div class="navbar">
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="tel:+917058653500">Call us</a></li>
+      </ul>
+    </nav>
+
+    <center>
+
+      <img id="photo"  data-enlargable src="./img.jpg">
+    </center>
+
+
+
+
+  </div>
+  
+  
+
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." required/>
+            </div>
+            
+            <div class="inputBox">
+              <input  id="number" placeholder="Mobile number...." minlength="10" required>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." required/>
+            </div>
+
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./contact.js"></script>
+</body>
+
+</html>
